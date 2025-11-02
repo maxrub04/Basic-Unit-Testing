@@ -14,6 +14,8 @@ class IShape(ABC):
 
 class Sphere(IShape):
     def __init__(self, radius):
+        if radius <= 0:
+            raise ValueError("Radius must be positive")
         self.radius = radius
 
     def calculate_area(self):
@@ -25,6 +27,8 @@ class Sphere(IShape):
 
 class Cylinder(IShape):
     def __init__(self, radius, height):
+        if radius <= 0 or height <= 0:
+            raise ValueError("Radius and height must be positive")
         self.radius = radius
         self.height = height
 
@@ -37,6 +41,8 @@ class Cylinder(IShape):
 
 class Rectangle(IShape):
     def __init__(self, length, width):
+        if length <= 0 or width <= 0:
+            raise ValueError("Width and length must be positive")
         self.length = length
         self.width = width
 
@@ -49,6 +55,8 @@ class Rectangle(IShape):
 
 class Cube(IShape):
     def __init__(self, side):
+        if side <= 0:
+            raise ValueError("Side must be positive")
         self.side = side
 
     def calculate_area(self):
