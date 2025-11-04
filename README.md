@@ -2,30 +2,30 @@
 
 ## Runing tests 
 
-#### Before testing install required library:
+## Before testing install required library:
 
 **pip install pytest**
 
-### Shapes tests
+## Shapes tests
 
-1. Clone the repository :
-
+### 1. Clone the repository :
+`bash
 git clone https://github.com/maxrub04/Basic-Unit-Testing
-
 cd Basic-Unit-Testing
+`
 
-2. Run tests with unittest:
+### 2. Run tests with unittest:
 
-python -m unittest Tutorial_Shapes_Project_CodeForTests.py
+`python -m unittest Tutorial_Shapes_Project_CodeForTests.py`
 
-### Calculator tests
+## Calculator tests
 
-1. Clone the repository :
+### 1. Clone the repository :
 
+`bash
 git clone https://github.com/maxrub04/Basic-Unit-Testing
+cd Basic-Unit-Testing`
 
-cd Basic-Unit-Testing
+### 2. Run tests with unittest:
 
-2. Run tests with unittest:
-
-python -m unittest Calculator_Tests.py
+`python -m unittest Calculator_Tests.py`
