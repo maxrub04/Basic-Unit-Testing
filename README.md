@@ -1,9 +1,6 @@
 # Basic-Unit-Testing
 
-## Runing tests 
-
 ## Before testing, install required package:
-
 
 ```bash
 pip install pytest
