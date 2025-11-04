@@ -11,6 +11,7 @@
 1. Clone the repository :
 
 git clone https://github.com/maxrub04/Basic-Unit-Testing
+
 cd Basic-Unit-Testing
 
 2. Run tests with unittest:
@@ -22,6 +23,7 @@ python -m unittest Tutorial_Shapes_Project_CodeForTests.py
 1. Clone the repository :
 
 git clone https://github.com/maxrub04/Basic-Unit-Testing
+
 cd Basic-Unit-Testing
 
 2. Run tests with unittest:
